@@ -3,8 +3,44 @@
 *{
     font-family: "DM Sans", sans-serif;
 }
+
 header{
     display: flex;
     justify-content: space-between;
-    margin: 20PX 70px;
+    margin: 20px 100px 0px 70px;
+}
+
+.logo-nav ul{
+    display: flex;
+}
+
+.logo-nav ul li{
+    list-style: none;
+    margin-right: 80px;
+}
+.pages{
+    font-size: 18px;
+    text-decoration: none;
+    color: #2C3E50;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+.socials li{
+    margin-left: 50px;
+}
+
+.img-soc1, .img-soc2, .img-soc3{
+    width: 130%;
+}
+
+.img-soc1{
+    margin-top: 3px;
+}
+.img-soc3{
+    margin-top: 1px;
 }
