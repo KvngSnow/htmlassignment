@@ -100,9 +100,9 @@ input{
 }
 
 .btn-sn{
-    width: 470px;
+    width: 500px;
     font-size: 18px;
-    height: 60px;
+    height: 65px;
     border-radius: 50px;
     color: #15143966;
     border: none;
@@ -119,4 +119,14 @@ input{
     background: #fff;
     color: #25DAC5;
     border: 1px solid #25DAC5;
+}
+
+.p1{
+    color: #15143966;
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.img-sec{
+    margin: 50px 80px 0px 0px;
 }
