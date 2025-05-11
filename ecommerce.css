@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    font-family: "DM Sans", sans-serif;
+}
+/* ecommerce section syling */
+.ecom1, .ecom2{
+    display: flex;
+    gap: 30px;
+}
+
+.ecom2{
+    margin-top: 60px
+}
+
+main {
+    margin: 70px 360px;
+}
+.ecom-text{
+    text-align: center;
+}
+
+.ecom-text p {
+    color: #1E0E62;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.ecom-text small, .product1 small{
+    color: #15143966;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ecom-btndes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.product1 p {
+    color: #1E0E62;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.product1 button {
+    border: 1px solid #15143966;
+    width: 70px;
+    height: 40px;
+    border-radius: 50px;
+    background: none;
+    color: #1E0E62;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.product1 button:hover {
+    color: #fff;
+    background: #1E0E62;
+}
+
+.product1 small {
+    margin-top: 20px
+}
+/* ecommerce section styling ends  */

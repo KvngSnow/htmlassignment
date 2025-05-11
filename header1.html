@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header3</title>
     <link rel="stylesheet" href="header1.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- navigation bar -->
@@ -53,13 +54,20 @@
             </div>
         </section>
         <!-- video/image section  -->
-        <section>
-            <div class="img-sec">
-                <img class="vid" src="./images/youtube.png" alt="video">
-            </div>
-            <!-- <p> We made it so beutiful and simple. It <br>combines landings, pages, blogs <br>and shop screens. It is definitely the tool you <br>need in your collection! </p> -->
-        </section>
+        <div data-aos="fade-down">
+            <section>
+                <div class="img-sec">
+                    <img class="vid" src="./images/youtube.png" alt="video">
+                </div>
+                <!-- <p> We made it so beutiful and simple. It <br>combines landings, pages, blogs <br>and shop screens. It is definitely the tool you <br>need in your collection! </p> -->
+            </section>
+        </div>
+        
      </main>
      <!-- end of hero sectiom  -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+      </script>
 </body>
 </html>
