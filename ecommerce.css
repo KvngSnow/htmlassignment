@@ -42,6 +42,7 @@ main {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .product1 button {
@@ -65,3 +66,53 @@ main {
     margin-top: 20px
 }
 /* ecommerce section styling ends  */
+
+.testimonial{
+    margin-top: 200px;
+}
+
+.testimonial-section, .testimonial-section2 {
+    display: flex;
+    gap: 80px;
+    margin-top: 70px;
+}
+
+.testimonial h3 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #1E0E62;
+    letter-spacing: 2px;
+}
+
+.testimonial-div{
+    display: flex;
+    gap: 40px;
+}
+.text1{
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #15143966;
+}
+
+.text2 {
+    color: #1E0E62;
+    font-weight: 700;
+    font-size: 14px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.testimonial-div small {
+    color: #15143966;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.testi{
+    margin-left: 24%;
+}
