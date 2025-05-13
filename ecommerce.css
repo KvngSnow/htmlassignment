@@ -67,6 +67,7 @@ main {
 }
 /* ecommerce section styling ends  */
 
+/* testimonial syling section starts */
 .testimonial{
     margin-top: 200px;
 }
@@ -97,7 +98,7 @@ main {
     color: #15143966;
 }
 
-.text2 {
+.text2, .p2{
     color: #1E0E62;
     font-weight: 700;
     font-size: 14px;
@@ -107,7 +108,7 @@ main {
     margin-top: 30px;
 }
 
-.testimonial-div small {
+.testimonial-div small, .small1 {
     color: #15143966;
     font-size: 16px;
     font-weight: 400;
@@ -115,4 +116,34 @@ main {
 
 .testi{
     margin-left: 24%;
+}
+/* testimonial styling section ends  */
+
+/* about us styling starts */
+.about{
+    margin-top: 150px;
+}
+.about h2 {
+    text-align: center;
+    color: #1E0E62;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.aboutus {
+    display: flex;
+    gap: 50px;
+    margin-left: 29%;
+    margin-top: 80px;
+}
+
+.about1 {
+    margin-top: -14px;
+}
+
+.p1 {
+    color: #15143966;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
 }
